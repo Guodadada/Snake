@@ -3,9 +3,11 @@
 <canvas style="height: {{ctxHeight}}" canvas-id="snakeCanvas" class="snake-canvas" bindtouchstart="touchStart" bindtouchmove="touchMove"></canvas>
 <canvas canvas-id="snakeMap" style="height: {{ctxHeight}}" class="snake-map" bindtouchstart="touchStart" bindtouchmove="touchMove"></canvas>
 <view class='control'>
-  <image class='backgroundImg' src='../../source/images/cbg02.jpg' mode="scaleToFill" />
+  <image class='backgroundImg' src='../../source/images/cbg02.jpg' mode="scaleToFill" mode='center' />
+  <image class='btn' src='../../source/images/direction.png' bindtap="changeDirection"/>
   <view class='vView'>
     <image class='btn' src='../../source/images/direction.png' />
     <image class='btn' src='../../source/images/direction.png' />
   </view>
+  <image class='btn' src='../../source/images/direction.png' />
 </view>
